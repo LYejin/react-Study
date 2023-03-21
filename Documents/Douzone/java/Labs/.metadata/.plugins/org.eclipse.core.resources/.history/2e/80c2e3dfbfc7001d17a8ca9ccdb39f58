@@ -21,11 +21,11 @@ public class Tv {
 	}
 	
 	public int channelMovePlus() {
-		return channel++;
+		return (channel<= 200) ? channel +=1 : channel; 
 	}
 	
 	public int channelMoveMinus() {
-		return channel--;
+		return (channel > 1) ? channel -=1 : channel;
 	}
 	
 	public void print() {
