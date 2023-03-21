@@ -1,0 +1,19 @@
+
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		
+		//반복문 (while, do ~ while)
+		int i = 10;
+		while (i>=10) { //true
+			// 반드시
+			// 증가감을 통해서 true, false 판단
+
+			// --i; -> 9 
+			System.out.println(i);
+			// --i; -> 10
+		}
+		
+	}
+
+}

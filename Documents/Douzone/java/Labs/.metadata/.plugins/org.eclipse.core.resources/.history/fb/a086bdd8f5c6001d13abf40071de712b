@@ -1,0 +1,41 @@
+
+public class Ex09_Statement {
+
+	public static void main(String[] args) {
+		/*
+		
+		 제어문
+		 조건문 : if (3가지), switch(조건), {case 값 ...break}
+		 반복문 : for(반복횟수가 명) {}, while(진위-> 반복횟수 명확하지 않음) {}, do{} ~ while()
+		 분기문 : break(블럭탈출), continue(아래 구문은 skip)
+		 */
+		int count = 0;
+		// 단일 if 
+		if (count < 1) System.out.println("true"); // 단일 if {} 생략 가능 
+		
+		//
+		if (count < 1) {
+			System.out.println("{ true }");
+		}
+		
+		char data = 'A'; // char는 무조건 ""이 아니라 ''로 해야한다
+		switch(data) {
+			case 'A' : System.out.println("문자 비교 같아요"); break;
+			case 'B' : System.out.println("B입니당"); break;
+			default : System.out.println("나머지 처리");
+		}
+		
+		// for문
+		// 1~100까지 합
+		int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+			//System.out.println(i);
+			sum += i;
+		}
+		System.out.printf("1~100까지 누적 합 : %d \n", sum);
+		
+		// 1~5까지의 합
+		sum = 5 * (1 + 5) / 2; 
+	}
+
+}

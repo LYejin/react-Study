@@ -1,0 +1,55 @@
+
+public class Ex06_Operation {
+
+	public static void main(String[] args) {
+		//대입 연산자 
+		// +=, -=, *=, /=
+		
+		int sum = 10;
+		sum += 1; // sum = sum + 1;
+		sum -= 1; // sum = sum - 1;
+		System.out.println("sum : " + sum);
+		
+		/*
+		 if (조건식) {}
+		 
+		 if (조건식) {} else {}
+		 
+		 if (조건식) {} else if () {} else if ... else {}
+		 
+		 간단한 학점 계산기
+		 
+		 학점 : A+, A-, B+, B-, ...F
+		 
+		 판단기준: 90점 이상 이고 95점 이상 이면
+		 //90 이상A 80이상B 70이상C 나머지 F 
+		 
+		 */
+		int score = 78;
+		String grade= ""; // A+ or A- or B+ ....
+		
+		if (score >= 90) {
+			if (score >= 95) { 
+				grade = "A+";
+			} else { 
+				grade ="A-";
+			}
+		} else if (score >= 80) {
+			if (score >= 85) { 
+				grade = "B+";
+			} else { 
+				grade ="B-";
+			}
+		} else if (score >= 70) {
+			if (score >= 75) { 
+				grade = "C+";
+			} else { 
+				grade ="C-";
+			}
+		} else {
+			grade = "F";
+		}
+		System.out.println("grade : " + grade);
+	}
+
+}

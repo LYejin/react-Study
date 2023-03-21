@@ -1,0 +1,27 @@
+package kr.or.kosa;
+/*
+기능 (행위) 만드는 방법
+method 만드는 방법(문법)
+
+method : 행위 또는 기능의 최소단위 구현 : [하나의 함수]는 [하나의 기능]만 구현
+
+ex) 먹는 기능, 자는 기능
+
+ex) 롯데월드 : 게임방 : 동전 (농구), 동전 뽑기 (포켓몬)
+
+** 모든 함수는 호출에 의해서만 동작한다 **
+누군가 이름을 부르지 않으면 동작하지 않는다
+
+JAVA)
+1. void, parameter(0) > 인자, 인수, 파라미터 : public void print(String str) { 실행구문 }
+2. void, parameter(x) : public void print() { 실행구문 }
+
+
+
+
+ */
+
+
+public class Fclass {
+	
+}

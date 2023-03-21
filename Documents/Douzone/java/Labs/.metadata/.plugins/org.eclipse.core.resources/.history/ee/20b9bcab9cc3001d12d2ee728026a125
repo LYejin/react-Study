@@ -1,0 +1,30 @@
+import kr.or.kosa.Emp;
+
+public class Ex02_Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 변수선언
+		int value; // 선언
+		value = 100; // 할당
+		
+		int age = 99; // 선언과 할당을 동시에
+		
+		// 초기값 정의(초기화) : 변수의 초기화 : 변수가 최초로 값을 받는 것!
+		
+		int num = 0;
+		System.out.println(num); //The local variable num may not have been initialized
+		
+		// 지역변수는 사용시 반드시 초기화를 해야한다. ***
+		// 지역변수는(local variable)는 무조건 초기화 하고 사용한다.
+		
+		Emp emp; // 선언 emp 지역 변수이다.
+		emp = new Emp(); // new 연산자 메모리에 올리는 작업, 초기화
+		// 설계도와 똑같은 집을 짓는다
+		System.out.println(emp); // kr.or.kosa.Emp@5479e3f
+		
+		// . => 주소를 찾아가는 연산자
+		emp.empno
+	}
+
+}

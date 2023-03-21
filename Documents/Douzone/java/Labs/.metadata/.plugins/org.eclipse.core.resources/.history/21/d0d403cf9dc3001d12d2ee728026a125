@@ -1,0 +1,9 @@
+package kr.or.kosa;
+
+public class Emp {	
+	public int empno; // 속성 >> member field
+	
+	public void infoPrint() {
+		int data;
+	}
+}

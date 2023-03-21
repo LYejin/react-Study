@@ -1,0 +1,38 @@
+class BankUser {
+		public int balance = 0;
+}
+
+public class Ex11_Statement_Quiz {
+	
+	
+	
+	public static void main(String[] args) {
+		// 메뉴를 보여주고 사용자에 선택 ...
+		// 원하시는 메뉴를 선택하지 않으면 강제로 다시 메뉴를 보여주세요
+		
+		//1.예금 -> 예금 넣어주기 
+		//2.출금
+		//3.잔고
+		//4.종료
+		
+		//예금 처리
+		//잔액 변수를 생성 (balance)
+		//예금 처리 +로 누적
+		//출금 처리 -로 누적
+		//잔고	balance 누적
+		//종료	프로그램 끝 (함수의 종료, 프로그램의 강제 종료)
+		
+		
+		
+		int input = 0;
+		int output = 0;
+		BankUser user1 = new BankUser();
+		
+		System.out.println("안녕하세요. 더존은행입니다.");
+		System.out.print("어떤 작업을 수행하시길 원하십니까?(예금, 출금, 잔고 입) : ");
+		
+		
+		
+	}
+
+}

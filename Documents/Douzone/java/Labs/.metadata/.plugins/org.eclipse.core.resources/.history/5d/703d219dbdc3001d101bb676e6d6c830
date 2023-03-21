@@ -1,0 +1,20 @@
+/*
+1. 자바가 제공하는 기본 타입(원시 타입) >> 8가지
+2. 8가지 타입은 값을 저장하는 타입
+숫자 정수(음의 정수,0,양의정수) byte(8bit) -128 ~ 127
+                         char 한문자 (내부적으로는 정수값) 
+                         영문자, 특수문자, 공백 (1byte), 한글 1자(2byte)
+    실수 
+논리 
+
+ */
+
+
+public class Ex03_DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

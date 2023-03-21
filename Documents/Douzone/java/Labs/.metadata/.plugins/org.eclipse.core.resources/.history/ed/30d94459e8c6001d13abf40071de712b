@@ -1,0 +1,22 @@
+
+public class Ex07_printf_format {
+
+	public static void main(String[] args) {
+		// System.out.println();
+		// C# : Console.WriteLine()
+		
+		System.out.println("A"); // 출력하고 줄바꿈 (엔터)
+		System.out.println();
+		System.out.println("B");
+		
+		int num = 1000;
+		System.out.println(num);
+		System.out.println("num 값은 " + num + " 입니다");
+		
+		//형식 format
+		System.out.printf("num 값은 %d 입니다", num);
+		System.out.println();
+		System.out.println("num 값은 [%d] 입니다 또 [%d] 도 있어요 \n", num, 12345);
+	}
+
+}

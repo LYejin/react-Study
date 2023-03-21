@@ -1,0 +1,16 @@
+
+public class Ex07_printf_format {
+
+	public static void main(String[] args) {
+		// System.out.println();
+		// C# : Console.WriteLine()
+		
+		System.out.println("A"); // 출력하고 줄바꿈 (엔터)
+		System.out.println();
+		System.out.println("B");
+		
+		int num = 1000;
+		System.out.println(num);
+	}
+
+}

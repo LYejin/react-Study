@@ -1,0 +1,14 @@
+
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		
+		//반복문 (while, do ~ while)
+		int i = 10;
+		while (i>=10) { //true
+			System.out.println(i);
+		}
+
+	}
+
+}
